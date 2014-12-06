@@ -1,0 +1,65 @@
+===UNDER CONSTRUCTION===
+
+This document focuses on firearms. Melee weapons, mage staffs, force powers, whatever the fuck else will be covered at a later time. While I want our guns and gunplay to be different--and, well, better--than other games, I'm not quite going for realism, either. Just bear with me.
+
+TABLE OF CONTINENTS
+(1) Weapon Categories - Overview
+(2) Weapon Mod Categories - Overview
+(3) Currently Planned Weapons
+(4) Weapons Stats - Proposal & Overview
+(5) Ammo Types - Proposal & Overview
+
+
+
+(1) Weapon Categories Overview - In a nutshell, each category is defined by the caliber of round it uses, so numerous guns in each category will have similar base damage. That said, there's still some variety--AKs use a larger round than AR15s, for example.
+	a. Rifles - Includes carbines, assault rifles, battle rifles, DMRs. Generally have decent stats all-around--ideal for medium-range engagements. Can be modded to fit a variety of roles, such as a heavy SMG or lighter LMG.
+	b. SMGs - High rates of fire with decent recoil control, but lower stability and accuracy--ideal for CQB. Low-calibre rounds tear up soft targets, though are less effective agaisnt armor.
+	c. Shotguns - Powerful, spreading shots--ideal for CQB. Spreading shots tear up organic material. Pump-action shotguns have a tight pellet spread, allowing for better accuracy and effective range, whilst semi-auto shotguns can fire a bit more quickly and have a wider pellet spread. If auto shotguns are added, they'll take after the latter. Pump-action can use slugs, which don't spread.
+	d. Snipers - High accuracy and damage, but low everything else--ideal for long-range engagements, Highest-calibre rounds available, pierce through armor and organic material alike.
+	e. LMGs - High damage, slow reload speeds and hard to aim while moving, with other stats varying from gun to gun--ideal usage varies. Higher-calibre rounds than rifles, better against armor and otters.
+	f. Pistols - Mostly low damage, but otherwise decent stats, used as back-up. Some pistols and SMGs use the same rounds--however, SMGs' other stats are typically superior, namely rate of fire and magazine size. Most pistols are semi-auto, however, so they're easy to control. Some pistols, such as revolvers, are special.
+	g. Launchers - Explosives. Namely rocket launchers and standalone grenade launchers. Using the latter instead of an underbarrel grenade launcher on an assault rifle allows the player to carry more grenades for it, as well as use exclusive ammo types.
+
+
+
+(2) Weapon Mod Categories Overview
+	a. Barrel - While there might alternate types (such as suppressed barrels), this is mainly for choosing barrel length. Kinda like how the M4 is literally a shortened M16, this grants a good deal of versatility to the gun. Enables the gun to be stubby CQB weapon, a DMR/Battle Rifle, or anything in between.
+	b. Barrel Tip - Includes flash hiders, compensators, and suppressors. Affects muzzle flash. Suppressors eliminate muzzle flash, as well as generate less aggro.
+	c. Stock - The part which connects the gun to your shoulder. Comes in Fixed, Adjustable, Collapsible, and Foldable (not pictured). Adjustable/Collapsible stocks can be set to fully collapsed, partially extended, or fully extended. Foldable stocks can be folded or not.
+	d. Magazine - Different mags have different capacities. For this particular gun, this includes 20-round, 30-round, and 100-round (C-mags). Might slightly affect other stats.
+	e. Front Sight - Necessary if using iron sights, unnecessary for scopes or red dot/holo sights (though it won't get in the way, if you like how it looks). Can be replaced with something flat if desired.
+	f. Scope/Sight/Rear Sight - Rear iron sight by default. Red dots/holo sights give no/slight zoom, while different scopes offer different magnifications, some possibly offering multiple. Can probably make the crosshair customizable.
+	g. Rails/Handguard - Must not be longer than the barrel. Not all attachments are compatible with all handguards. Rails, by design, offer the most customization.
+	h. Rail/Handguard Attachments - Has three sub-categories. Note that some handguards do not allow for side attachments, and only rails offer topside attachments.
+		i) Underside Attachments - Includes grips, grenades launchers, masterkeys, flashlight, laser point, PEQ box, possibly other stuff. If rails are longer enough, has two slots, fore and rear. Grenade launcher and masterkey will always take up entire space. Grips and can placed in either slot, but most other items are limited to the fore. While all handguards have at least some attachments that can be used here, some are more limited.
+		ii) Side Attachments - Mainly flashlights, lasers, PEQ Boxes, and/or rail guards.
+		iii) Topside Attachments -PEQ box, at least.
+
+
+(3) Proposed Weapons
+ Rifles: AR15, AK, Springfield
+ SMGs: MP5, UZI, Thompson
+ Shotguns: Mossberg, SPAS, Benelli
+ Snipers: L96/AWP/Whatever
+ Pistols: M1911, M9, HK45
+ Support Guns: M249
+ Launchers: RPG
+
+
+(4) Weapons Stats - Proposal & Overview
+	a. Base Damage - Self-explanatory.
+	b. Calibre - Basically determines what the base ammo is effective against. Low-calibre rounds are more effective against "soft" material, such as skin and cloth, and shields, but are less effective against armor. High-calibre rounds are good for damaging/piercing armor, but don't have a bonus against soft materials or shields. Assault rifles are the middle ground, not being particularly effective or ineffective against anything.
+	c. Accuracy - The higher the number, the more stable you hold your gun when looking down you sights/scope. Low accuracy can cause trouble lining up iron sights.
+	d. Recoil Control - The higher the number, the less your gun kicks upward after every shot.
+	e. Stability -The higher the number, the less accuracy is lost after every shot--desirable for automatic weapons.
+*Note that a gun can have high recoil control with low stability, and vice versa.
+	f. Rate of Fire - The higher the number, the higher the pewpews-per-second ratio.
+	g. Force  - Still working this one out. Determines how effective a gun is at causing an enemy to stagger/fall. Basically, if a gun's force is higher than an enemy's stagger threshold, they'll stagger backward for a moment. Same for the fall threshold, which decides when/if an enemy can fall over.
+	For automatic weapons, the force of each shot stacks. If the stagger threshold is reached within X seconds, the enemy will stagger. If the player can reach the fall threshold while the enemy is staggering, they will fall. If a threshold is not reached within X seconds, the counter resets.
+
+
+(5) Ammo Types - Proposal & Overview
+To be added.
+
+
+===UNDER CONSTRUCTION===
