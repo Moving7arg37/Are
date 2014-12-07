@@ -1,5 +1,7 @@
 ===UNDER CONSTRUCTION===
 
+LAST UPDATED: 06DEC14
+
 This document focuses on firearms. Melee weapons, mage staffs, force powers, whatever the fuck else will be covered at a later time. While I want our guns and gunplay to be different--and, well, better--than other games, I'm not quite going for realism, either. Just bear with me.
 
 TABLE OF CONTINENTS
@@ -47,19 +49,31 @@ TABLE OF CONTINENTS
 
 
 (4) Weapons Stats - Proposal & Overview
+(Items marked with a * are affected by the player's character's stats)
 	a. Base Damage - Self-explanatory.
 	b. Calibre - Basically determines what the base ammo is effective against. Low-calibre rounds are more effective against "soft" material, such as skin and cloth, and shields, but are less effective against armor. High-calibre rounds are good for damaging/piercing armor, but don't have a bonus against soft materials or shields. Assault rifles are the middle ground, not being particularly effective or ineffective against anything.
-	c. Accuracy - The higher the number, the more stable you hold your gun when looking down you sights/scope. Low accuracy can cause trouble lining up iron sights.
-	d. Recoil Control - The higher the number, the less your gun kicks upward after every shot.
-	e. Stability -The higher the number, the less accuracy is lost after every shot--desirable for automatic weapons.
+	c. Accuracy - The higher the number, the more accurate the gun itself is. A lot of guns will be perfectly accurate, and most of the rest will have high accuracy. This leads us to...
+	d. Steadiness* -  Determines base (stationary) weapon sway. Is a number. When the weapon sways, the tip randomly floats around inside an invisible circle (the Sway Circle™). The number is the radius of said circle. 0 means no sway at all. Note that the sway continues when shooting.
+	e. Recoil* - The lower the number, the less your gun kicks upward after every shot. Is a number; 0 means no recoil.
+	f. Stability* - The lower the number, the less accuracy is lost after every shot--desirable for automatic weapons. Is a number. Determines how much the Sway Circle™ grows after each consecutive shot.
 *Note that a gun can have high recoil control with low stability, and vice versa.
-	f. Rate of Fire - The higher the number, the higher the pewpews-per-second ratio.
-	g. Force  - Still working this one out. Determines how effective a gun is at causing an enemy to stagger/fall. Basically, if a gun's force is higher than an enemy's stagger threshold, they'll stagger backward for a moment. Same for the fall threshold, which decides when/if an enemy can fall over.
+	g. Rate of Fire - The higher the number, the higher the pewpews-per-second ratio.
+	i. Force  - Still working this one out. Determines how effective a gun is at causing an enemy to stagger/fall. Basically, if a gun's force is higher than an enemy's stagger threshold, they'll stagger backward for a moment. Same for the fall threshold, which decides when/if an enemy can fall over.
 	For automatic weapons, the force of each shot stacks. If the stagger threshold is reached within X seconds, the enemy will stagger. If the player can reach the fall threshold while the enemy is staggering, they will fall. If a threshold is not reached within X seconds, the counter resets.
 
+	NOTE: Except for Doomers, players will get a percentage penalty to Steadiness and Stability while moving. Probably to recoil as well. Each playstyle has a different base penalty, with skill choices reducing this penalty.
 
-(5) Ammo Types - Proposal & Overview
-To be added.
+
+
+(5) Ammo Types - Proposal & Overview - For the most part, these are just general ideas. If/when we decide to implement these, I'll arrange which are useable with what guns.
+	a. Tracers - Default. Players can change the color.
+	b. Shredder rounds - Bonus damage against soft targets, but slightly less effective against armor. Slight/no damage loss against shields.
+	c. Dent Rounds - Bonus against armor. Slightly lower base damage.
+	d. Phase rounds - Bonus damage against shields. Slightly lower base damage.
+	e. Impact rounds - Adds force. Maybe slightly reduces base damage.
+	f. Toxin rounds - Adds damage-over-time to organic targets
+	g. Virus rounds - Adds DoT to robotic targets
+	h. Slugs - Exclusive to pump-action shotguns. Single, solid shots with higher base damage and force than buckshots.
 
 
 ===UNDER CONSTRUCTION===
