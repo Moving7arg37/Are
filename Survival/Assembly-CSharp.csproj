@@ -46,36 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneAlarmLight.cs" />
-     <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneCCTVPlayerDetection.cs" />
-     <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneLaserBlinking.cs" />
-     <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneLaserPlayerDetection.cs" />
-     <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneLaserSwitchDeactivation.cs" />
-     <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneEnemyAI.cs" />
-     <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneEnemyAnimation.cs" />
-     <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneEnemyShooting.cs" />
-     <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneEnemySight.cs" />
-     <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneWayPointGizmo.cs" />
-     <Compile Include="Assets\Done\DoneScripts\GameControllerScripts\DoneHashIDs.cs" />
-     <Compile Include="Assets\Done\DoneScripts\GameControllerScripts\DoneLastPlayerSighting.cs" />
-     <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneCameraMovement.cs" />
-     <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneDoorAnimation.cs" />
-     <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneKeyPickup.cs" />
-     <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneLiftDoorsTracking.cs" />
-     <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneLiftTrigger.cs" />
-     <Compile Include="Assets\Done\DoneScripts\PlayerScripts\DonePlayerHealth.cs" />
-     <Compile Include="Assets\Done\DoneScripts\PlayerScripts\DonePlayerInventory.cs" />
-     <Compile Include="Assets\Done\DoneScripts\PlayerScripts\DonePlayerMovement.cs" />
-     <Compile Include="Assets\Done\DoneScripts\ScreenFaderScripts\DoneSceneFadeInOut.cs" />
-     <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneAnimatorSetup.cs" />
-     <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneTags.cs" />
-     <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\guiTextSet.cs" />
-     <Compile Include="Assets\MobileInput\Scripts\CrossPlatformInputManager.cs" />
-     <Compile Include="Assets\MobileInput\Scripts\Joystick.cs" />
-     <Compile Include="Assets\MobileInput\Scripts\MobileControlRig.cs" />
-     <Compile Include="Assets\MobileInput\Scripts\PlatformSpecific\MobileInput.cs" />
-     <Compile Include="Assets\MobileInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-     <Compile Include="Assets\MobileInput\Scripts\VirtualInput.cs" />
      <Compile Include="Assets\PauseManager.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
@@ -87,20 +57,6 @@
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Camera\CameraFollow.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyAttack.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyHealth.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyMovement.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Helpers\BeautyShot.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Helpers\RandomAnimationPoint.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Helpers\RandomParticlePoint.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Helpers\VolumeHandler.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Managers\EnemyManager.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Managers\GameOverManager.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Managers\ScoreManager.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Player\PlayerHealth.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\_CompletedAssets\Scripts\Player\PlayerShooting.cs" />
      <None Include="Assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\Shaders\Rim Lit Bumped Specular.shader" />
      <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
