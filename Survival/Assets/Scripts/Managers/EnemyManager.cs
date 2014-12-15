@@ -17,12 +17,20 @@ public class EnemyManager : MonoBehaviour
 	
 	void Spawn ()
 	{
-		// If the player has no health left...
+        // Check that the player still has health
 		if(playerHealth.currentHealth <= 0f)
 		{
-			// ... exit the function.
 			return;
 		}
+
+        // Check that there are still enemies remaining this wave
+        if (WaveManager.totalEnemies <= 0)
+        {
+            return;
+        }
+
+        // Decement the number of enemies to spawn
+        WaveManager.totalEnemies--;
 		
 		// Find a random index between zero and one less than the number of spawn points.
 		int spawnPointIndex = Random.Range (0, spawnPoints.Length);

@@ -75,6 +75,9 @@ public class EnemyHealth : MonoBehaviour
 		
 		// Turn the collider into a trigger so shots can pass through it.
 		capsuleCollider.isTrigger = true;
+
+        // Decrement the number of enemies that are alive.
+        WaveManager.enemiesAlive--;
 		
 		// Tell the animator that the enemy is dead.
 		anim.SetTrigger ("Dead");
