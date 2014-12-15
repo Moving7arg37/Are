@@ -2180,7 +2180,7 @@ AudioSource:
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: fa7f046ce321d4021b5e753bf1152916, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: .246999994
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2917,6 +2917,10 @@ Prefab:
       propertyPath: damageImage
       value: 
       objectReference: {fileID: 782562538}
+    - target: {fileID: 8200002, guid: 9f682f1be4c302c4b8c1f7a76a06d8e8, type: 2}
+      propertyPath: m_Volume
+      value: .246999994
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9f682f1be4c302c4b8c1f7a76a06d8e8, type: 2}
   m_RootGameObject: {fileID: 2059718929}
@@ -3125,6 +3129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waveText: {fileID: 1142722279}
   enemiesText: {fileID: 1874719440}
+  anim: {fileID: 1719883044}
 --- !u!4 &965434643
 Transform:
   m_ObjectHideFlags: 0
