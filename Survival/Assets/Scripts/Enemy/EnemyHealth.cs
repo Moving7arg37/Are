@@ -77,7 +77,7 @@ public class EnemyHealth : MonoBehaviour
 		capsuleCollider.isTrigger = true;
 
         // Decrement the number of enemies that are alive.
-        WaveManager.enemiesAlive--;
+        WaveManager.Instance.enemiesAlive--;
 		
 		// Tell the animator that the enemy is dead.
 		anim.SetTrigger ("Dead");

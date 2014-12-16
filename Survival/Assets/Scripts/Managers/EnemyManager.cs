@@ -3,7 +3,6 @@
 public class EnemyManager : MonoBehaviour
 {
 	public PlayerHealth playerHealth;       // Reference to the player's heatlh.
-	public GameObject enemy;                // The enemy prefab to be spawned.
 	public float spawnTime = 3f;            // How long between each spawn.
 	public Transform[] spawnPoints;         // An array of the spawn points this enemy can spawn from.
 	
@@ -24,16 +23,15 @@ public class EnemyManager : MonoBehaviour
 		}
 
         // Check that there are still enemies remaining this wave
-        if (WaveManager.totalEnemies <= 0)
+        if (WaveManager.Instance.totalEnemies <= 0)
         {
             return;
         }
 
-        // Decement the number of enemies to spawn
-        WaveManager.totalEnemies--;
-		
-		// Find a random index between zero and one less than the number of spawn points.
+        // Find a random index between zero and one less than the number of spawn points.
 		int spawnPointIndex = Random.Range (0, spawnPoints.Length);
+
+        GameObject enemy = WaveManager.Instance.EnemyToSpawn();
 		
 		// Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
 		Instantiate (enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
