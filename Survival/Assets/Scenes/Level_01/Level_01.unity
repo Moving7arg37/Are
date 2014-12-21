@@ -3130,10 +3130,15 @@ MonoBehaviour:
   currentWave: 0
   totalEnemies: 0
   enemiesAlive: 0
+  playerHealth: {fileID: 2059718936}
   enemies:
   - {fileID: 100004, guid: 7caa352a0aa08c04b8b726ecbfabb54c, type: 2}
   - {fileID: 100000, guid: 7bca9c2cd581dbb4f971ad087c21f5f9, type: 2}
   - {fileID: 100000, guid: 6fd694fb865e5524486da2da372b9730, type: 2}
+  spawnPoints:
+  - {fileID: 1739190797}
+  - {fileID: 2006202834}
+  - {fileID: 1815781371}
   waveText: {fileID: 1142722279}
   enemiesText: {fileID: 1874719440}
   anim: {fileID: 1719883044}
