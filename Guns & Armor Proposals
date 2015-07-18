@@ -9,6 +9,7 @@ TABLE OF CONTINENTS
 (2) Weapon Mod Categories - Overview
 (3) Currently Planned Weapons
 (4) Weapons Stats - Overview
+(4.5) Weapon-related Character Stats - Overview
 (5) Ammo Types - Proposal & Overview
 (6) Armor - Proposal & Overview
 (7) Health types - Proposal & Overview
@@ -55,20 +56,29 @@ In a nutshell, each category is defined by the type of ammunition/caliber of rou
 
 
 (4) Weapons Stats - Overview
-(Items marked with a * are affected by the player's character's stats)
-	a. Base Damage - Self-explanatory.
-	b. Calibre - Basically determines what the base ammo is effective against. Low-calibre rounds are more effective against "soft" material, such as skin and cloth, and shields, but are less effective against armor. High-calibre rounds are good for damaging/piercing armor, but don't have a bonus against soft materials or shields. Assault rifles are the middle ground, not being particularly effective or ineffective against anything.
-	c. Accuracy - The higher the number, the more accurate the gun itself is. A lot of guns will be perfectly accurate, and most of the rest will have high accuracy. This leads us to...
+(Items marked with a * are affected by the player's character's stats--see below for said stats.)
+	a. Base Damage - Self-explanatory. May or may not be hidden from the player.
+	b. Calibre - Basically determines what the base ammo is effective against. Low-calibre rounds are more effective against "soft" material, such as skin, cloth, and shields, but may be useless against armor. High-calibre rounds are good for piercing armor, but don't have a bonus against soft materials or shields.
+	c. Accuracy - Self-explanatory. The higher the number, the more accurate the gun itself is. Most guns have excellent, if not perfect accuracy. Which leads us to...
 	d. Steadiness* -  Determines base (stationary) weapon sway. Is a number. When the weapon sways, the tip randomly floats around inside an invisible circle (the Sway Circle™). The number is the radius of said circle. 0 means no sway at all. Note that the sway continues when shooting.
-	e. Recoil* - The lower the number, the less your gun kicks upward after every shot. Is a number; 0 means no recoil.
-	f. Stability* - The lower the number, the less accuracy is lost after every shot--desirable for automatic weapons. Is a number. Determines how much the Sway Circle™ grows after each consecutive shot.
-*Note that a gun can have high recoil control with low stability, and vice versa.
+	e. Recoil* - Determines how much your gun kicks upward after every shot. The lower the number, the less recoil. Is a number--0 means no recoil. Single shot weapons often have high recoil.
+	f. Stability* - Determines how much the Sway Circle™ grows after each consecutive shot. The lower the number, the less accuracy is lost after every shot--desirable for automatic weapons. Is a number--0 means perfect stability.
+*Note that a gun can have low recoil with low stability, or high recoil with high stability.
 	g. Rate of Fire (ROF) - The higher the number, the higher the pewpews-per-second ratio.
-	i. Force  - Still working this one out. Determines how effective a gun is at causing an enemy to stagger/fall. Basically, if a gun's force is higher than an enemy's stagger threshold, they'll stagger backward for a moment. Same for the fall threshold, which decides when/if an enemy can fall over.
+	i. Force - Determines how effective a gun is at causing an enemy to stagger/fall. Basically, if a gun's force is higher than an enemy's stagger threshold, they'll stagger backward for a moment. Same for the fall threshold, which decides when/if an enemy can fall over.
 	For automatic weapons, the force of each shot stacks. If the stagger threshold is reached within X seconds, the enemy will stagger. If the player can reach the fall threshold while the enemy is staggering, they will fall. If a threshold is not reached within X seconds, the counter resets.
 Obviously, some enemies will be immune to staggering and/or falling.
 
-	NOTE: Except for Doomers, players will get a percentage penalty to Steadiness and Stability while moving. Probably to recoil as well. Each playstyle has a different base penalty, with skill choices reducing this penalty.
+NOTE: Except for Doomers, players will get a percentage penalty to Steadiness and Stability while moving. Probably to recoil as well. Each playstyle has a different base penalty, with skill choices reducing this penalty.
+
+
+(4.5) Weapon-related Character Stats - Overview
+Each character has stats which affect their weapon handling.
+	a. Stationary Steadiness - Number, percentage. Modifies a weapon's Steadiness (sway) when the character is stationary
+	b. Mobile Steadiness - Number, percentage. Modifies a weapon's Steadiness when the character is moving.
+	c. Control - Number, percentage. Modifies a weapon's Recoil and Stability, usually as a reduction.
+	d. Melee Force - Number, percentage. Modifies the force behind a character's melee attacks.
+	e. 
 
 
 
@@ -89,7 +99,7 @@ For the most part, these are just general ideas. If/when we decide to implement 
 (6) Armor - Proposal & Overview
 Armor is not another health bar. Basically, it's an external layer which blocks damage below a certain threshold, namely from firearms below a certain calibre, as well as reducing damage from one calibre above. Can also protect from things such as elemental damage and effects from special ammo types, even if pierced.
 Take a soldier in a plate carrier. He can take pistol shots to the chest for days. But, while SMG rounds aren't totally blocked by the plate carrier, their damage is significantly reduced by it. Also, if those SMG rounds were coated in poison or some shit, that effect is negated. However, larger calibre rounds will totally pierce it, and hit the poor sod underneath with full effect.
-Needless to say, there are different tiers of armor, normally defined by the highest calibre round it blocks. For example, a bulletproof vest only protects against pistols, while a blatant AT-AT ripoff's armor is nigh impenetrable to normal firearms, requiring hits to weak points.
+Needless to say, there are different tiers of armor, normally defined by the highest calibre round it blocks. For example, a bulletproof vest only protects against pistols, while a blatant AT-AT ripoff's armor is nigh impenetrable to normal firearms, requiring hits to either exposed or weaker points.
 
 
 
