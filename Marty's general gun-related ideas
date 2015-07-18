@@ -8,8 +8,10 @@ TABLE OF CONTINENTS
 (1) Weapon Categories - Overview
 (2) Weapon Mod Categories - Overview
 (3) Currently Planned Weapons
-(4) Weapons Stats - Proposal & Overview
+(4) Weapons Stats - Overview
 (5) Ammo Types - Proposal & Overview
+(6) Armor - Proposal & Overview
+(7) Health types - Proposal & Overview
 
 
 
@@ -26,7 +28,7 @@ In a nutshell, each category is defined by the type of ammunition/caliber of rou
 
 
 
-(2) Weapon Mod Categories Overview
+(2) Weapon Mod Categories - Overview
 	a. Barrel - While there might alternate types (such as suppressed barrels), this is mainly for choosing barrel length. Kinda like how the M4 is literally a shortened M16, this grants a good deal of versatility to the gun. Enables the gun to be stubby CQB weapon, a DMR/Battle Rifle, or anything in between.
 	b. Barrel Tip - Includes flash hiders, compensators, and suppressors. Affects muzzle flash. Suppressors eliminate muzzle flash, as well as lessen aggro generation.
 	c. Stock - The part which connects the gun to your shoulder. Comes in Fixed, Adjustable, Collapsible, and Foldable. Adjustable/Collapsible stocks can be set to fully collapsed, partially extended, or fully extended. Foldable stocks can be folded or not.
@@ -40,6 +42,7 @@ In a nutshell, each category is defined by the type of ammunition/caliber of rou
 		iii) Topside Attachments - PEQ box, at least.
 
 
+
 (3) Proposed Weapons
  Rifles: AR15, AK, Springfield
  SMGs: MP5, UZI, Thompson
@@ -50,7 +53,8 @@ In a nutshell, each category is defined by the type of ammunition/caliber of rou
  Launchers: RPG
 
 
-(4) Weapons Stats - Proposal & Overview
+
+(4) Weapons Stats - Overview
 (Items marked with a * are affected by the player's character's stats)
 	a. Base Damage - Self-explanatory.
 	b. Calibre - Basically determines what the base ammo is effective against. Low-calibre rounds are more effective against "soft" material, such as skin and cloth, and shields, but are less effective against armor. High-calibre rounds are good for damaging/piercing armor, but don't have a bonus against soft materials or shields. Assault rifles are the middle ground, not being particularly effective or ineffective against anything.
@@ -68,7 +72,8 @@ Obviously, some enemies will be immune to staggering and/or falling.
 
 
 
-(5) Ammo Types - Proposal & Overview - For the most part, these are just general ideas. If/when we decide to implement these, I'll arrange which are useable with what guns.
+(5) Ammo Types - Proposal & Overview
+For the most part, these are just general ideas. If/when we decide to implement these, I'll arrange which are useable with what guns.
 	a. Tracers - Default. Players can change the color.
 	b. Shredder rounds - Bonus damage against soft targets, but slightly less effective against armor. Slight/no damage loss against shields.
 	c. Hammer/Dent Rounds - Bonus against armor, plus added force. Slightly lower base damage. Maybe slight damage loss against shields.
@@ -78,6 +83,18 @@ Obviously, some enemies will be immune to staggering and/or falling.
 	g. Virus rounds - Adds DoT to robotic targets
 	h. Slugs - Exclusive to pump-action shotguns. Single, solid shots with higher base damage and force than buckshots.
 	i. Screamer rounds - Bonus to suppression. Will probably lower base damage slightly.
+
+
+
+(6) Armor - Proposal & Overview
+Armor is not another health bar. Basically, it's an external layer which blocks damage below a certain threshold, namely from firearms below a certain calibre, as well as reducing damage from one calibre above. Can also protect from things such as elemental damage and effects from special ammo types, even if pierced.
+Take a soldier in a plate carrier. He can take pistol shots to the chest for days. But, while SMG rounds aren't totally blocked by the plate carrier, their damage is significantly reduced by it. Also, if those SMG rounds were coated in poison or some shit, that effect is negated. However, larger calibre rounds will totally pierce it, and hit the poor sod underneath with full effect.
+Needless to say, there are different tiers of armor, normally defined by the highest calibre round it blocks. For example, a bulletproof vest only protects against pistols, while a blatant AT-AT ripoff's armor is nigh impenetrable to normal firearms, requiring hits to weak points.
+
+
+
+(7) Health types - Proposal & Overview
+Currently, not a whole lot planned here, just human and mech. Primarily affects what kinds of effects can be applied to a particular unit. For example, a mech's not going to bleed, while a human isn't going to give a shit about a computer virus. Different types might have different resistances, but likely nothing more significant than a given unit's base health.
 
 
 ===UNDER CONSTRUCTION===
